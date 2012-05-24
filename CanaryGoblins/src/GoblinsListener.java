@@ -18,7 +18,7 @@ public class GoblinsListener extends PluginListener {
 		String[] goblins = { "Gmonur", "Nurezk","Gnutz", "Gkazor", "Snuz", "Rezuxk",  "Drak", "Gexomd", "Zekr", "Regoms"};
 
 		String ret = GoblinsListener.get(goblins);
-		player.sendMessage("~" + ret + "greets you, 'Welcome master!'");
+		player.sendMessage(ret + " greets you, 'Welcome master!'");
 	}
 	
 }
